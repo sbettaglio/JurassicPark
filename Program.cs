@@ -6,6 +6,26 @@ namespace JurassicPark
   {
     static void Main(string[] args)
     {
+      Console.WriteLine("");
+      Console.WriteLine(@"         /| ");
+      Console.WriteLine(@"    /\/ |/\ ");
+      Console.WriteLine(@"      \  ^   | /\  /\ ");
+      Console.WriteLine(@"(\/\  / ^   /\/  )/^ ) ");
+      Console.WriteLine(@"  \  \/^ /\       ^  /");
+      Console.WriteLine(@"   )^       ^ \     (");
+      Console.WriteLine(@"  (   ^   ^      ^\  )");
+      Console.WriteLine(@"   \___\/____/______/");
+      Console.WriteLine(@"   [________________]");
+      Console.WriteLine(@"    |              |");
+      Console.WriteLine(@"    |     //\\     |");
+      Console.WriteLine(@"    |    <<()>>    |");
+      Console.WriteLine(@"    |     \\//     |");
+      Console.WriteLine(@"     \____________/");
+      Console.WriteLine(@"         |    |");
+      Console.WriteLine(@"         |    |");
+      Console.WriteLine(@"         |    |");
+      Console.WriteLine(@"         |    |");
+      Console.WriteLine(@"         |    |");
       Console.WriteLine("Welcome to Jurassic Park");
       var tracker = new DinosaurTracker();
       var powerIsOn = true;

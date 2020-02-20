@@ -9,7 +9,7 @@ namespace JurassicPark
     //Diet type
     public string DietType { get; set; }
     //Date Acquired
-    public DateTime DateAcquired { get; set; }
+    public DateTime DateAcquired { get; set; } = DateTime.Now;
     //Weight
     public int Weight { get; set; }
     //Enclosure Number
