@@ -53,10 +53,10 @@ namespace JurassicPark
     public void HeavyDino()
     {
       var heavyDino = Dinosaurs.OrderByDescending(Dinosaurs => Dinosaurs.Weight).Take(3);
-      // foreach (var dino in heavyDino)
-      // {
-      //   Console.WriteLine($"{dino.Name} weighs {dino.Weight} ");
-      // }
+      foreach (var dino in heavyDino)
+      {
+        Console.WriteLine($"{dino.Name} weighs {dino.Weight} ");
+      }
     }
     public void DisplayDiet()
     {
