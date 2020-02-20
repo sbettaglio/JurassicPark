@@ -44,19 +44,19 @@ namespace JurassicPark
     }
     public void TransferDinosaur(string name)
     {
-      var dinoPen = Dinosaurs.IndexOf(Dinosaurs.First(name => Dinosaurs.Contains(name)));
+      var dinoPen = Dinosaurs.First(name => Dinosaurs.Contains(name)).EnclosureNumber;
       Console.WriteLine($"{name} is in enclosure {dinoPen}");
       Console.WriteLine("Where do you want to move it?");
       var newPen = int.Parse(Console.ReadLine());
-      Dinosaurs[dinoPen].EnclosureNumber = newPen;
+      Dinosaurs.First(name => Dinosaurs.Contains(name)).EnclosureNumber = newPen;
     }
     public void HeavyDino()
     {
       var heavyDino = Dinosaurs.OrderByDescending(Dinosaurs => Dinosaurs.Weight).Take(3);
-      foreach (var dino in heavyDino)
-      {
-        Console.WriteLine($"{dino.Name} weighs {dino.Weight} ");
-      }
+      // foreach (var dino in heavyDino)
+      // {
+      //   Console.WriteLine($"{dino.Name} weighs {dino.Weight} ");
+      // }
     }
     public void DisplayDiet()
     {
