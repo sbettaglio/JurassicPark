@@ -7,26 +7,26 @@ namespace JurassicPark
     static void Main(string[] args)
     {
       Console.WriteLine("");
-      Console.WriteLine(@"         /| ");
-      Console.WriteLine(@"    /\/ |/\ ");
-      Console.WriteLine(@"      \  ^   | /\  /\ ");
-      Console.WriteLine(@"(\/\  / ^   /\/  )/^ ) ");
-      Console.WriteLine(@"  \  \/^ /\       ^  /");
-      Console.WriteLine(@"   )^       ^ \     (");
-      Console.WriteLine(@"  (   ^   ^      ^\  )");
-      Console.WriteLine(@"   \___\/____/______/");
-      Console.WriteLine(@"   [________________]");
-      Console.WriteLine(@"    |              |");
-      Console.WriteLine(@"    |     //\\     |");
-      Console.WriteLine(@"    |    <<()>>    |");
-      Console.WriteLine(@"    |     \\//     |");
-      Console.WriteLine(@"     \____________/");
-      Console.WriteLine(@"         |    |");
-      Console.WriteLine(@"         |    |");
-      Console.WriteLine(@"         |    |");
-      Console.WriteLine(@"         |    |");
-      Console.WriteLine(@"         |    |");
-      Console.WriteLine("Welcome to Jurassic Park");
+      Console.WriteLine(@"         /|                                                                                                        /|              ");
+      Console.WriteLine(@"    /\/ |/\                                                                                                     /\/ |/\            ");
+      Console.WriteLine(@"      \  ^   | /\  /\                                                                                             \  ^   | /\  /\  ");
+      Console.WriteLine(@"(\/\  / ^   /\/  )/^ )                                                                                       \/\  / ^   /\/  )/^ ) ");
+      Console.WriteLine(@"  \  \/^ /\       ^  /                                                                                        \  \/^ /\       ^  / ");
+      Console.WriteLine(@"   )^       ^ \     (                                                                                          )^       ^ \     (");
+      Console.WriteLine(@"  (   ^   ^      ^\  )                                                                                        (   ^   ^      ^\  ) ");
+      Console.WriteLine(@"   \___\/____/______/                                                                                          \___\/____/______/");
+      Console.WriteLine(@"   [________________]                                                                                          [________________]");
+      Console.WriteLine(@"    |              |                                                                                            |              |");
+      Console.WriteLine(@"    |     //\\     |                                                                                            |     //\\     |");
+      Console.WriteLine(@"    |    <<()>>    |                           Welcome to Jurassic Park!                                        |    <<()>>    |");
+      Console.WriteLine(@"    |     \\//     |                                                                                            |     \\//     |");
+      Console.WriteLine(@"     \____________/                                                                                              \____________/");
+      Console.WriteLine(@"         |    |                                                                                                      |    |");
+      Console.WriteLine(@"         |    |                                                                                                      |    |");
+      Console.WriteLine(@"         |    |                                                                                                      |    |");
+      Console.WriteLine(@"         |    |                                                                                                      |    |");
+      Console.WriteLine(@"         |    |                                                                                                      |    |");
+      Console.WriteLine("");
       var tracker = new DinosaurTracker();
       var powerIsOn = true;
       while (powerIsOn)
